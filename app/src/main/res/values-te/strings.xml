@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">రైతుసేవా ఆఫీసర్</string>
+    <string name="version">1.1</string>
+    <string name="title_home">రైతుసేవా ఆఫీసర్</string>
+
+    <string name="title_mpeo_home">MPEO ఆఫీసర్</string>
+    <string name="title_mao_home">MAO ఆఫీసర్</string>
+    <string name="enter_mobile_number">దయచేసి మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="enter_valid_mobile_number">దయచేసి సరైన మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="enter_pwd">దయచేసి పాస్వర్డ్ను నమోదు చేయండి</string>
+
+
+    <!--Splash-->
+    <string name="network">నెట్వర్క్ అందుబాటులో లేదు దయచేసి మళ్ళీ ప్రయత్నించండి</string>
+    <string name="wait">దయచేసి వేచి ఉండండి!</string>
+    <!--Register-->
+
+    <string name="try_again">మళ్ళి ప్రయత్నించండి...</string>ca-app-pub-3940256099942544~3347511713
+    <string name="failed">లాగిన్ విఫలమైంది! మళ్ళి ప్రయత్నించండి...</string>
+    <!--OTP-->
+
+    <string name="submit">సమర్పించు</string>
+    <string name="update_category">కేటగిరీలు ధృవీకరించబడింది ...</string>
+    <string name="otp_enter">దయచేసి ఓ.టి.పి ని నమోదు చెయండి</string>
+
+    <!--MENU-->
+
+    <string name="fertilizers">ఎరువులు</string>
+    <string name="equipment">పరికరాలు</string>
+    <string name="weather">వాతా వరణం</string>
+
+
+    <!--Dynamic List-->
+
+
+    <string name="seedsAvailable">విత్తనాల లభ్యత వివరాలు</string>
+    <string name="seedMe">నా దగ్గర విత్తనలు అమ్మకానికి వున్నాయ్</string>
+
+    <!-- Seeds -->
+    <string name="nursery">నర్సరీ</string>
+    <string name="description">వివరణ</string>
+
+
+    <string-array name="type">రకం
+        <item>Select</item>
+        <item>Government</item>
+        <item>Government Subsidized</item>
+        <item>CHC</item>
+        <item>Individual/Private</item>
+    </string-array>
+
+
+    <string-array name="statusdetails">స్థితి వివరాలు
+        <item>Select</item>
+        <item>Ready for Rent</item>
+        <item>In maintenance</item>
+        <item>Unavailable</item>
+        <item>Damaged</item>
+        <item>Need service and repair</item>
+        <item>Rented to customer</item>
+    </string-array>
+
+    <string name="photo_failed">ఫోటోను సంగ్రహించడం విఫలమైంది, మళ్లీ ప్రయత్నించండి</string>
+    <string name="gps_photo_failed">జి.పి.యస్ ఫోటోను సంగ్రహించడం విఫలమైంది, మళ్లీ ప్రయత్నించండి</string>
+    <string name="saved">సమాచారం విజయవంతంగా పొందుపరచడం జరిగింది</string>
+    <string name="deleted">విజయవంతంగా తొలగించబడింది</string>
+    <string name="no_data">డేటా లేదు!...</string>
+    <string name="no_available">డేటా అందుబాటులో లేదు</string>
+    <string name="wait_loading">దయచేసి వేచి ఉండండి! లేఅవుట్ లోడ్ అవుతోంది...</string>
+
+    <string name="no_network">నెట్వర్క్ అందుబాటులో లేదు దయచేసి మళ్ళీ ప్రయత్నించండి</string>
+    <string name="already_reg_">ఈ సామగ్రి ఇప్పటికే మరొక యూజర్ ద్వారా బుక్ చేయబడింది</string>
+    <string name="booking_failed">బుకింగ్ విఫలమైంది! మళ్ళి ప్రయత్నించండి...</string>
+    <string name="booking_success">పరికరం నమోదు విజయవంతం  అయింది </string>
+
+
+    <string name="booking">దయచేసి వేచి ఉండండి! పరికరం  నమోదవుచున్నది ...</string>
+    <string name="find_equips">దయచేసి వేచి ఉండండి! పరికరాల కోసం సర్వర్ హిట్ ఇవ్వబడింది </string>
+    <string name="enter_username">దయచేసి యూజర్ పేరు నమోదు చేయండి</string>
+    <string name="enter_aadhaar">దయచేసి అధార్ ఐ డి  ను ఎంటర్ చెయ్యండి</string>
+    <string name="enter_valid_aadhaar">దయచేసి చసరైన అధార్ ఐడిని నమోదు చేయండి</string>
+    <string name="enter_address">దయచేసి చిరునామాను నమోదు చేయండి</string>
+    <string name="enter_phone">దయచేసి సరైన ఫోన్ నంబర్ను నమోదు చేయండి</string>
+    <string name="enter_purpose">దయచేసి ఉద్దేశ్యము  నమోదు చేయండి</string>
+    <string name="enter_start_date">దయచేసి ప్రారంభ తేదీని నమోదు చేయండి</string>
+    <string name="enter_end_date">దయచేసి ముగింపు తేదీని నమోదు చేయండి</string>
+    <string name="cap_gps">దయచేసి GPS ను సంగ్రహించండి</string>
+    <string name="owner_details">యజమాని వివరాలు</string>
+    <string name="owner_name">యజమాని పేరు :</string>
+    <string name="equipment_name">పరికరం  పేరు :</string>
+    <string name="barcode">బార్కోడ్ :</string>
+    <string name="equipment_rent">అద్దె :</string>
+    <string name="status">స్థితి</string>
+    <string name="push_notification">విజ్ఞాపన పంపుట </string>
+    <string name="title_booking">బుకింగ్ </string>
+
+    <string name="key_missing">కీ తప్పిపోయింది...</string>
+    <string name="already_ordered">మీరు ఇప్పటికే ఈ సామగ్రిని ఆదేశించారు</string>
+    <string name="key_miss_onClickBookEquip">మీరు ఇప్పటికే ఈ సామగ్రిని ఆదేశించారు</string>
+    <string name="gps_captures_success">Gps విజయవంతంగా  తీసుకుంది  </string>
+    <string name="str_name">పేరు:</string>
+    <string name="aadhaar_id">ఆధార్ సంఖ్య</string>
+    <string name="address">చిరునామా</string>
+    <string name="mobile_no">మొబైల్ నంబర్</string>
+    <string name="purpose">ప్రయోజనం</string>
+    <string name="end_date">ఆఖరి తేది</string>
+    <string name="pls_cap_gps">Capture GPS</string>
+    <string name="book">Book</string>
+    <string name="remarks">వ్యాఖ్యలు</string>
+    <string name="equipments_availability">పరికరాలు లభ్యత</string>
+    <string name="gps_failed">GPS విఫలమైంది, మళ్లీ ప్రయత్నించండి</string>
+    <string name="distance">దూరం : </string>
+    <string name="rent">అద్దెకు :</string>
+    <string name="equip_is">ఈ సామగ్రి ఇప్పటికే ఉంది </string>
+    <string name="update">నవీకరించబడింది!</string>
+    <string name="updat">నవీకరణ</string>
+    <string name="gps">జి పి ఎస్</string>
+    <string name="name_of_equipment">పరికరం పేరు</string>
+    <string name="yes">అవును</string>
+    <string name="no">కాదు</string>
+    <string name="ok">అలాగే</string>
+    <!--<string name=""></string>-->
+    <!--getResources().getString(R.string.)-->
+
+    <!-- Camera -->
+    <string name="phone_does_not_contains_camera">క్షమించండి, మీ ఫోన్లో కెమెరా లేదు!</string>
+    <string name="failed_to_create_directory">డైరెక్టరీని సృష్టించడం విఫలమైంది</string>
+    <string name="meters">మీటర్స్</string>
+    <string name="get_route">మార్గం పొందడం</string>
+    <string name="driving">డ్రైవింగ్</string>
+
+
+    <string name="register">నమోదు</string>
+    <string name="update_categories">అప్డేట్ కేటగిరీలు</string>
+
+    <string name="search_equipment">పరికరాలు శోధన</string>
+    <string name="cancel">రద్దు</string>
+    <string name="apply">వర్తింపు</string>
+    <string name="details_book">పరికరాల వివరాలు</string>
+    <string name="for_book">బుకింగ్ కోసం</string>
+    <string name="s_no">క్రమసంఖ్య:</string>
+    <string name="rent_book">అద్దెకు : ₹</string>
+    <string name="fetch_book">చిరునామాను తెస్తోంది ...</string>
+    <string name="no_net">ఇంటర్నెట్ లేదు! దయచేసి తనిఖీ చెయ్యండి ...</string>
+    <string name="eqp_name">పరికరం పేరు</string>
+    <string name="eqp_details">పరికరాల వివరాలు</string>
+    <string name="process_to_book">బుకింగ్ ప్రాసెస్ </string>
+    <string name="fill_details_for_booking">బుకింగ్ కోసం వివరాలను పూరించండి</string>
+    <string name="by_which_date">తేదీ నుండి:</string>
+    <string name="no_of_hours_need">ఎన్ని గంటలు అవసరము?</string>
+    <string name="which_date">మీకు అవసరమైన తేదీ?</string>ద
+    <string name="eq_cat"> సామగ్రి వర్గం ఎంచుకోండి </string>
+    <string name="eq_type">పరికర రకం ఎంచుకోండి</string>
+    <string name="mandal">మండల/మున్సిపాలిటీ</string>
+    <string name="district">జిల్లా</string>
+    <string name="gp">గ్రామ పంచాయతీ/వార్డ్</string>
+    <string name="village">గ్రామము</string>
+
+
+    <!--Live Stock-->
+
+    <string name="price">ధర (కిలో)</string>
+    <string name="count">కౌంట్ </string>
+
+    <string name="district_">జిల్లా(District)</string>
+    <string name="mandal_">మండల(Mandal)/మున్సిపాలిటీ(Muncipality)</string>
+
+
+    <!--VIDEOS APP-->
+    <!--<string name="title_activity_main">వ్యవసాయ వీడియోలు</string>-->
+
+    <string name="btn_submit">సమర్పించండి</string>
+    <!-- youtube -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="fertilizers_name_av">ఎరువు పేరు :</string>
+    <string name="price_plant">ధర(ప్రతి మొక్క)</string>
+    <string name="price_avv">ధర :</string>
+    <string name="search_fertilizer"> ఎరువులు శోధన</string>
+    <string name="find_ferti">దయచేసి వేచి ఉండండి! ఎరువులు శోధించడం జరుగుతున్నది
+</string>
+    <string name="ferti_details">ఎరువులు వివరాలు</string>
+    <string name="ferti_name">ఎరువులు పేరు</string>
+    <string name="fertilize_name">ఎరువులు పేరు :</string>
+
+    <!--Nursery-->
+    <string name="search_Nursery">నర్సరీని శోధించు</string>
+    <string name="find_Nursery">దయచేసి వేచి ఉండండి! నర్సరీ కోసం సర్వర్ హిట్</string>
+    <string name="Nursery_details">నర్సరీ వివరాలు</string>
+    <string name="Nurs_name">నర్సరీ పేరు</string>
+    <string name="Nursery_name">నర్సరీ పేరు :</string>
+    <string name="nursurySearch">నర్సరీ ఎంచుకోండి</string>
+    <!--Seed-->
+    <string name="search_seed">విత్తనం శోధనకు</string>
+    <string name="seed_cat">విత్తన కేటగిరీలు ఎంచుకోండి</string>
+    <string name="seed_availability">సీడ్ లభ్యత</string>
+    <string name="title_activity_seed_booking_details">సీడ్ వివరాలు</string>
+    <string name="seed_details">సీడ్ వివరాలు</string>
+    <string name="seed_name">విత్తన పేరు</string>
+    <string name="seeds_name">విత్తన పేరు :</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="Eng_Seed_Label">
+        <item>షాప్ పేరు</item>
+        <item>లైసెన్స్ సంఖ్య</item>
+        <item>మొబైల్ సంఖ్య</item>
+        <item>చిరునామా</item>
+        <item>వర్గం ఎంచుకోండి</item>
+        <item>వెరైటీ ఎంచుకోండి</item>
+        <item>క్వాంటిటీ</item>
+        <item>ధర</item>
+        <item>చిత్రం</item>
+        <item>జిపియస్</item>
+    </string-array>
+
+    <string-array name="Tel_Seed_Label">
+        <item>షాప్ పేరు</item>
+        <item>లైసెన్స్ సంఖ్య</item>
+        <item>మొబైల్ సంఖ్య</item>
+        <item>చిరునామా</item>
+        <item>వర్గం ఎంచుకోండి</item>
+        <item>వెరైటీ ఎంచుకోండి</item>
+        <item>క్వాంటిటీ</item>
+        <item>ధర</item>
+        <item>చిత్రం</item>
+        <item>జిపియస్</item>
+    </string-array>
+
+
+    <string name="seedRegistration">విత్తన నమోదు</string>
+
+    <string name="farmerName">రైతు పేరు</string>
+    <string name="selectSeed">విత్తనాలు రకం ఎంచుకోండి</string>
+    <string name="selectSeedtype">ఉప విత్తనం రకాన్ని ఎంచుకోండి</string>
+    <string name="shopName">షాప్ పేరు</string>
+    <string name="panch">పంచాయతీ/వార్డ్</string>
+    <string name="quality">క్వాంటిటీ (కిలో)</string>
+
+
+    <!-- <string name="rupee">₹</string>-->
+
+
+    <!--Fisheries-->
+    <string name="del_ques">మీరు తొలగించాలనుకుంటున్నారా?</string>
+
+    <string name="shop">షాప్</string>
+    <string name="farmer">రైతు</string>
+
+
+    <string name="take_gps">దయచేసి GPS ను తీసుకోండి</string>
+    <string name="myloc">నా స్థానాన్ని</string>
+
+    <!--WEATHER-->
+
+    <!--Pests-->
+
+    <string name="please_wait_submitting">దయచేసి వేచి ఉండండి! సమర్పిస్తోంది ...</string>
+    <string name="submit_suceess">విజయవంతంగా సమర్పించబడింది</string>
+    <string name="not_submit">డేటా సమర్పించబడలేదు</string>
+    <string name="all_equpments">అన్ని పరికరాలు</string>
+
+    <string name="date_weather">తేదీ</string>
+    <string name="temperature">ఉష్ణోగ్రత</string>
+    <string name="rain">వర్షం</string>
+    <string name="wind">గాలి</string>
+    <string name="nodataavaialbepleasetryagain">డేటా అందుబాటులో లేదు \n దయచేసి మళ్లీ ప్రయత్నించండి</string>
+    <string name="weather_report">వాతావరణ సమాచారము</string>
+    <string name="menu_booking_tracker">బుకింగ్ ట్రాకర్</string>
+    <string name="menu_capacity_building">కెపాసిటీ బిల్డింగ్</string>
+    <string name="menu_near_fertilizers">సమీపంలోని ఎరువులు</string>
+    <string name="menu_near_seeds">సమీపంలోని విత్తనాలు</string>
+    <string name="menu_near_nurseries">సమీపంలోని నర్సరీలు</string>
+    <string name="menu_near_cropinsurance">నా క్లస్టర్ ఇన్సెన్ర్స్</string>
+
+
+    <string name="dashboard_details">డాష్బోర్డ్ వివరాలు</string>
+    <string name="my_cluster">నా క్లస్టర్</string>
+    <string name="tot_cluster">మొత్తం క్లస్టర్</string>
+
+
+    <string-array name="gpNames">
+        <item>మొత్తం రైతులు</item>
+        <item>పంట సమాచారం</item>
+        <item>నమోదు రైతులు</item>
+        <item>రెంట్ లో ఎక్విప్మెంట్స్</item>
+        <item>బల్క్ బుకింగ్ పరికరాలు</item>
+        <item>విత్తనాల డీలర్లు</item>
+        <item>ఫెర్టిలైజర్స్ డీలర్స్ కౌంట్</item>
+        <item>నర్సరీలు డీలర్స్</item>
+        <item>ఇన్షురెన్స్</item>
+        <item>రుణ</item>
+    </string-array>
+    <string name="btn_delete">తొలగించు</string>
+    <string name="btn_submit_schedule">షెడ్యూల్ను సమర్పించండి</string>
+    <string name="hint_serach_farmers">రైతులకు అన్వేషణ (పేరుతో లేదా మొబైల్తో)</string>
+    <string name="select_gp">దయచేసి కనీసం 1 గ్రామం ఎంచుకోండి</string>
+    <string name="data_submited_success">డేటా విజయవంతంగా సమర్పించబడింది</string>
+    <string name="schedule_meeting_all">దయచేసి అన్ని gps కోసం సమావేశాలను షెడ్యూల్ చేయండి</string>
+    <string name="title_schedule_meetings">షెడ్యూల్ సమావేశాలు</string>
+    <string name="title_my_farmers">My Farmers</string>
+    <string name="title_seed_reg">విత్తనాలు రిజిస్ట్రేషన్</string>
+    <string name="sub_title_form">ఫారం</string>
+    <string name="village_name">గ్రామం పేరు</string>
+    <string name="no_of_farmers">రైతుల సంఖ్య</string>
+    <string name="farmer_name">పేరు</string>
+    <string name="farmer_aadhar">ఆధార్</string>
+    <string name="farmer_mobile">మొబైల్</string>
+    <string name="login_failed">లాగిన్ విఫలమైంది</string>
+    <string name="select_fertilizer_type">ఎరువులు రకం ఎంచుకోండి</string>
+    <string name="farmer_communication">రైతు సంభాషణ</string>
+    <string name="nav_my_villages">నా గ్రామాలు</string>
+    <string name="nav_my_crops">My Crops</string>
+    <string name="select_district">జిల్లాను ఎంచుకోండి</string>
+    <string name="select_farmer">రైతుని ఎంచుకోండి</string>
+    <string name="select_mandal">మండల్ ఎంచుకోండి</string>
+    <string name="select_village">గ్రామము ఎంచుకోండి</string>
+    <string name="please_select_village">దయచేసి గ్రామము ఎంచుకోండి</string>
+    <string name="please_select_district">దయచేసి జిల్లాను ఎంచుకోండి</string>
+    <string name="please_select_farmer">దయచేసి రైతుని ఎంచుకోండి</string>
+    <string name="please_select_mandal">దయచేసి మండల్ ఎంచుకోండి</string>
+    <string name="menu_my_cluster">నా రైతులు</string>
+    <string name="menu_my_land">నా క్లస్టర్ భూమి</string>
+    <string name="menu_crop_sowing"> నా క్లస్టర్ పంటలు </string>
+    <string name="menu_farmer_info">Uberization సమాచారం</string>
+    <string name="menu_bulk_booking">బల్క్ బుకింగ్</string>
+    <string name="menu_farmer_awareness">రైతు అవగాహన కాంప్</string>
+    <string name="menu_near_equipments">పరికరాలు</string>
+    <string name="internal_communication">అంతర్గత సంభాషణ</string>
+    <string name="officer_communication">ఆఫీసర్ సంభాషణ</string>
+    <string name="please_select_seed_type">దయచేసి విత్తన రకాన్ని ఎంచుకోండి</string>
+    <string name="please_select_sub_seed_type">దయచేసి ఉప విత్తన రకాన్ని ఎంచుకోండి</string>
+    <string name="query_title">శీర్షిక *</string>
+    <string name="query_description">వివరణ *</string>
+    <string name="select_crop">పంటను ఎంచుకోండి</string>
+    <string name="total_farmers">మొత్తం రైతులు</string>
+    <string name="crop">పంట</string>
+    <string name="no_farmer_communication_data">రైతు సంభాషణ డేటా లేదు..!</string>
+    <string name="meeting_details">సమావేశం వివరాలు</string>
+    <string name="my_villages">నా గ్రామాలు</string>
+    <string name="insertion_failed">Insertion Failed</string>
+    <string name="farmers_attended">Farmers Attended</string>
+    <string name="seperator">:</string>
+    <string name="no_seed_data">విత్తన డేటా లేదు..</string>
+    <string name="fertilizer_not_available">ఎరువులు డేటా అందుబాటులో లేదు</string>
+    <string name="nursery_not_availabale">నర్సరీ సమాచారం అందుబాటులో లేదు</string>
+    <string name="Total_Farmers">రైతులు</string>
+    <string name="Total_Farmers_Installed">రైతులు వ్యవస్థాపించబడ్డారు</string>
+    <string name="Total_Equipments">పరికరాలు</string>
+    <string name="equipment_menu">పరికరాల మెనూ</string>
+    <string name="no_equipments_data">పరికరాలు ఏవీ లేవు !</string>
+    <string name="equipment_search">పరికరాల శోధన</string>
+    <string name="location_search">Location శోధన</string>
+    <string name="link_general">లింక్</string>
+    <string name="video_link">వీడియో లింక్</string>
+    <string name="villages_in_my_cluster">నా క్లస్టర్లోని గ్రామాలు</string>
+    <string name="uberisation_info_of_my_cluster">నా క్లస్టర్ యొక్క ఉబెర్టైజేషన్ సమాచారం</string>
+    <string name="no_uberisation_info">No Uberisation Info</string>
+    <string name="uberisation_info">Uberisation Info</string>
+    <string name="farmer_profile">రైతు ప్రొఫైల్</string>
+    <string name="enter_valid_otp">దయచేసి సరైన OTP ని నమోదు చేయండి</string>
+    <string name="are_you_sure_want_to_exit">మీరు నిష్క్రమించాలనుకుంటున్నారా?</string>
+    <string name="please_select_crop">దయచేసి పంటను ఎంచుకోండి</string>
+    <string name="title_seeds">విత్తనాలు</string>
+    <string name="new_seed_registration">కొత్త విత్తనం రిజిస్ట్రేషన్</string>
+    <string name="menu_agri_forum">అగ్రి ఫోరం</string>
+    <string name="Name">పేరు</string>
+    <string name="aadhar">ఆధార్ సంఖ్య</string>
+    <string name="i_m_farmer">నేను (రైతు)</string>
+    <string name="write_post">పోస్ట్ వ్రాయండి</string>
+    <string name="question">పోస్ట్</string>
+    <string name="phone">ఫోన్:</string>
+    <string name="select_crop_type">పంట రకాన్ని ఎంచుకోండి</string>
+    <string name="category">వర్గం ఎంచుకోండి</string>
+    <string name="cultivated_type">సాగు రకం ఎంచుకోండి</string>
+    <string name="type_here_to_share_massage">ప్రశ్న</string>
+    <string name="link_optional">లింక్ (optional)</string>
+    <string name="link_type">లింక్ రకం</string>
+    <string name="image_link">చిత్రం లింక్</string>
+    <string name="link">లింక్</string>
+    <string name="Select_link_type">లింక్ రకాన్ని ఎంచుకోండి</string>
+    <string name="select">దయచేసి ఎంచుకోండి</string>
+    <string name="please">దయచేసి</string>
+    <string name="please_enter">దయచేసి నమోదు చెయ్యండి</string>
+    <string name="crop_type_list">పంట రకం</string>
+    <string name="take_photo">ఫోటో తీసుకో</string>
+    <string name="search_for_farmers">రైతులకు అన్వేషణ</string>
+    <string name="search_by_farmer_name_aadhar_number_or_mobile_number">రైతు పేరు లేదా మొబైల్ సంఖ్య ద్వారా శోధించండి</string>
+    <string name="hello_officer_how_can_i_help_you">హలో ఆఫీసర్, నేను మీకు ఏవిధంగా సహాయపడగలను?</string>
+    <string name="my_cluster_post">నా క్లస్టర్ పోస్ట్</string>
+    <string name="general_post">జనరల్ పోస్ట్</string>
+    <string name="upload_type">అప్లోడ్ రకం</string>
+    <string name="pleae_select_upload_type">దయచేసి అప్లోడ్ రకం ఎంచుకోండి</string>
+    <string name="please_capture_image">దయచేసి చిత్రాన్ని క్యాప్చర్ చేయండి</string>
+    <string name="please_take_image">దయచేసి చిత్రాన్ని క్యాప్చర్ చేయండి</string>
+    <string name="please_enter_videolink">దయచేసి వీడియో లింక్ని నమోదు చేయండి</string>
+    <string name="select_commodity">కమోడిటీ ఎంచుకోండి</string>
+    <string name="hint_quantity">క్వాంటిటీ</string>
+    <string name="btn_get_deals">ఒప్పందాలను పొందండి</string>
+    <string name="bulk_booking_request">సీడ్ బల్క్ బుకింగ్ అభ్యర్థన</string>
+    <string name="discount">డిస్కౌంట్</string>
+    <string name="delivery_address">పంపాల్సిన చిరునామా</string>
+    <string name="mini_quantity">కనిష్ట పరిమాణం (కిలోలు)</string>
+    <string name="total_amount">మొత్తం అమాంట్</string>
+    <string name="bulk_booking_tracking">బల్క్ బుకింగ్ ట్రాకింగ్</string>
+    <string name="bill_details">బిల్ వివరాలు</string>
+    <string name="order_qty">ఆర్డర్ పరి..</string>
+    <string name="item_price">అంశం ధర</string>
+    <string name="total">మొత్తం అమాంట్</string>
+    <string name="order_details">ఆర్డర్ వివరాలు</string>
+    <string name="track_report">ట్రాక్ నివేదిక</string>
+    <string name="shop_details">షాప్ వివరాలు</string>
+    <string name="bulk_booking_status">బల్క్ బుకింగ్ స్థితి</string>
+    <string name="mini_quantity_ql_2">మినీ పరిమాణం (ql) : 2</string>
+    <string name="_0_discount">0 % డిస్కౌంట్</string>
+    <string name="commodity">కమోడిటీ</string>
+    <string name="category_name">వర్గం పేరు</string>
+    <string name="bill_to_pay">బిల్ చెల్లించాలి</string>
+
+
+    <string-array name="user_types">
+        <item>Farmer</item>
+        <item>Agri Student</item>
+        <item>Agriculture Officer</item>
+        <item>Agri Scientist</item>
+        <item>Agri Business</item>
+        <item>Others</item>
+
+    </string-array>
+    <string name="variety">వెరైటీ</string>
+    <string name="quantity_in_quintal">క్వింటాల్ లో పరిమాణం</string>
+    <string name="pricing_details">ధర నమూనా</string>
+    <string name="req_quantity">అవసరమైన పరిమాణం</string>
+    <string name="price_dealer">ధర</string>
+    <string name="payable_amnt">చెల్లించవలసిన మొత్తం</string>
+    <string name="meeting_review">సమావేశం రివ్యూ</string>
+    <string name="list">జాబితా</string>
+    <string name="no_notifications">నో నోటిఫికేషన్లు!</string>
+
+    <string name="serial_no">క్రమ సంఖ్య </string>
+    <string name="yr_manufacturer">తయారీ సంవత్సరం(YYYY)</string>
+    <string name="note">గమనిక: గంటకు మొత్తం</string>
+    <string name="note_arc">గమనిక: ఎకరానికి మొత్తం</string>
+    <string name="willing_to_rent">అద్దెకు సిద్ధంగా ఉంది</string>
+    <string name="avaliable_date">అందుబాటులో ఉన్న తేదీ</string>
+    <string name="equipment_category">సామగ్రి వర్గం</string>
+    <string name="category_type">సామగ్రి టైప్</string>
+    <string name="owned_by">సొంతమైనది</string>
+    <string name="equipment_registration">పరికరాలు నమోదు</string>
+
+    <string-array name="type_">
+        <item>Select</item>
+        <item>Govt</item>
+        <item>CHC</item>
+        <item>Manufacturer</item>
+        <item>Individual/Private</item>
+    </string-array>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="channelName">channelName</string>
+
+    <string name="noteoccupancy">గమనిక: సంవత్సరానికి మొత్తం</string>
+    <string name="already_exist_adhar_number">ఇప్పటికే ఈ మొబైల్ నంబర్ ఈ రైతు కోసం రిజిస్టర్ చేయబడింది</string>
+    <string name="please_select_category">దయచేసి వర్గం ఎంచుకోండి</string>
+    <string name="please_select_category_type">దయచేసి వర్గం రకం ఎంచుకోండి</string>
+    <string name="please_select_owner_by">దయచేసి యజమానిని ఎంచుకోండి</string>
+    <string name="please_enter_serial_number">దయచేసి క్రమ సంఖ్యను నమోదు చేయండి</string>
+    <string name="please_enter_model_name">మోడల్ పేరును నమోదు చేయండి</string>
+    <string name="please_enter_manufacture">దయచేసి తయారీ పేరుని నమోదు చేయండి</string>
+    <string name="please_enter_year_of_manufacture">తయారీ ఇయర్ నమోదు చేయండి</string>
+    <string name="please_enter_specifications">దయచేసి వివరాలను నమోదు చేయండి</string>
+    <string name="please_rent_per_hour">గంటకు అద్దెకు ఇవ్వండి</string>
+    <string name="please_enter_rent_per_acre">దయచేసి రెంట్ ఎకరానికి ఎంటర్</string>
+    <string name="please_enter_owner_name">దయచేసి యజమాని పేరుని నమోదు చేయండి</string>
+    <string name="please_enter_adhar_number">Please Enter Aadhaar Number</string>
+    <string name="please_enter_valid_adhar_number">దయచేసి చెల్లుబాటు అధీర్ సంఖ్యను నమోదు చేయండి</string>
+    <string name="please_enter_address">దయచేసి చిరునామాను నమోదు చేయండి</string>
+    <string name="please_enter_mobile_number">దయచేసి మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="please_enter_valid_mobile_number">దయచేసి చెల్లుబాటు అయ్యే మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="please_select_status">దయచేసి స్థితి ఎంచుకోండి</string>
+    <string name="please_select_date">దయచేసి తేదీని ఎంచుకోండి</string>
+    <string name="please_enter_valid_manufacturing_year">చెల్లుబాటు అయ్యే తయారీ సంవత్సరం నమోదు చేయండి(1999-2019)</string>
+    <string name="invalid_link">లింక్ చెల్లుబాటులో లేదు</string>
+    <string name="take_image">చిత్రం తీసుకోండి</string>
+    <string name="model_name">మోడల్ పేరు</string>
+    <string name="manufacturer_name">తయారీదారు పేరు</string>
+    <string name="specification">స్పెసిఫికేషన్</string>
+    <string name="apaims">APAIMS</string>
+
+
+
+    <!--State Officials-->
+    <string name="communication_SO_text">సంభాషణ</string>
+    <string name="uberization_info_SO_text">ఉబెరైజేషన్ ఇన్ఫో</string>
+    <string name="nearby_seeds_so_text">సమీప విత్తనాలు</string>
+    <string name="nearby_fertilizers_so_text">సమీపంలోని ఎరువులు</string>
+    <string name="nearby_equipments_so_text">సమీప పరికరాలు</string>
+    <string name="mandal_text">Mandal</string>
+    <string name="district_text">District</string>
+
+
+
+    <string name="mao_menu_my_cluster">నా మండల రైతులు</string>
+    <string name="mao_menu_my_land">నా మండల్ ల్యాండ్</string>
+    <string name="mao_menu_crop_sowing">నా మండల్ పంటలు</string>
+    <string name="mao_menu_near_cropinsurance">నా మండల్ ఇన్సెన్ర్స్</string>
+
+    <string name="menu_comm_to_field_staff">కమ్యూనికేషన్ టు ఫీల్డ్ స్టాఫ్</string>
+    <string name="mandals_in_my_cluster">నా మండల్స్ క్లస్టర్లోని గ్రామాలు</string>
+
+    <string name="mao_farmer_communication">MAO Farmer Communication</string>
+    <string name="mao_uberisation_info_of_my_cluster">Uberisation info of my Mandal Cluster</string>
+    <string name="mao_meeting_review">MAO Meeting Review</string>
+    <string name="title_jd_home">JD Officer</string>
+    <string name="not_update_categories">Master not updated! Please try again... \n->Masters Update is available in SLIDE MENU (☰)</string>
+    <string name="bulk_booking_order">Bulk Booking Order</string>
+    <string name="number_of_pots">Quantity(No.of.pots)</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="nursery_bulk_booking_order">Nursery Bulk Booking Order</string>
+    <string name="no_of_pots">no of pots</string>
+    <string name="mini_pots">Mini Quantity (No.of.pots)</string>
+    <string name="nursery_price">Price (Each Pot)</string>
+    <string name="plants_name">Plant Name :</string>
+    <string name="fertilzers_name">Fertilizer Name:</string>
+    <string name="selelct_commodity">Please Select Commodity</string>
+    <string name="select_category_type">Please Select category Type</string>
+    <string name="select_subcategory_type">Please Select Sub category Type</string>
+    <string name="menu_masterupdate">Master Update</string>
+    <string name="menu_equip_booking_tracker">Equipment Booking Tracker</string>
+    <string name="rent_per_hour">Rent Per Hour</string>
+    <string name="rent_per_acre">Rent Per Acre</string>
+    <string name="equipment_booking_tracking">Equipment Booking Tracking</string>
+    <string name="equip_booking_status">Equipment Booking Status</string>
+    <string name="booking_id">B.Id : </string>
+    <string name="select_category">Select Category</string>
+    <string name="select_variety">Select Variety</string>
+    <string name="chc_equipments_availability">CHC Equipments Availability</string>
+    <string name="fertilizer_bulk_booking_request">Fertilizer Bulk Booking Request</string>
+    <string name="nursery_bulk_booking_request">Nursery Bulk Booking Request</string>
+</resources>

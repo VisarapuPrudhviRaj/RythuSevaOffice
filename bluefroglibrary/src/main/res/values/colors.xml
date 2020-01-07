@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C8E44</color>
+    <color name="colorPrimaryDark">#206026</color>
+    <color name="colorAccent">#CE6B00</color>
+    <color name="trans">#f2f2f2</color>
+    <color name="common_white">@android:color/white</color>
+    <color name="transparent_color">#50000000</color>
+    <color name="black">@android:color/black</color>
+    <color name="rotate_img_white">@android:color/white</color>
+    <color name="rotate_white_light">#a7a7b4</color>
+</resources>

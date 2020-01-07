@@ -1,0 +1,540 @@
+<resources>
+    <string name="app_name">RythuSeva Officer</string>
+    <string name="version">1.1</string>
+    <string name="title_home">RythuSeva Officer</string>
+    <string name="title_mao_home">MAO Officer</string>
+    <string name="title_mpeo_home">MPEO Officer</string>
+    <string name="title_jd_home">JD Officer</string>
+    <string name="enter_mobile_number">Please enter mobile number</string>
+    <string name="enter_valid_mobile_number">Please enter valid mobile number</string>
+    <string name="enter_pwd">Please enter password</string>
+    <string name="search_fertilizer">Search Fertilizer</string>
+    <string name="nursurySearch">Nursury Search</string>
+    <string name="no_data">No Data!…</string>
+    <string name="Nurs_name">Nursery Name</string>
+    <string name="price_avv">Price :</string>
+
+    <!--Splash-->
+    <string name="network">No network available please try again</string>
+    <string name="wait">Please Wait!</string>
+    <!--Register-->
+
+    <string name="try_again">Please Try Again...</string>
+    <string name="failed">Login Failed! Please Try Again...</string>
+    <!--OTP-->
+
+    <string name="submit">SUBMIT</string>
+    <string name="update_category">Updated Category Details...</string>
+    <string name="otp_enter">Please enter the OTP</string>
+
+    <!--MENU-->
+
+    <string name="fertilizers">Fertilizers</string>
+    <string name="equipment">Equipment</string>
+    <string name="weather">Weather</string>
+
+    <string name="officers_info">Officers Info</string>
+
+    <!--Dynamic List-->
+
+
+    <string name="seedsAvailable">Seeds available place </string>
+    <string name="seedMe">Seeds available with me</string>
+
+    <!-- Seeds -->
+    <string name="nursery">Nursery</string>
+    <string name="description">Description</string>
+
+
+    <string-array name="type">
+        <item>Select</item>
+        <item>Government</item>
+        <item>Government Subsidized</item>
+        <item>CHC</item>
+        <item>Individual/Private</item>
+    </string-array>
+
+    <string-array name="type_">
+        <item>Select</item>
+        <item>Govt</item>
+        <item>CHC</item>
+        <item>Manufacturer</item>
+        <item>Individual/Private</item>
+    </string-array>
+
+
+    <string-array name="statusdetails">
+        <item>Select</item>
+        <item>Ready for Rent</item>
+        <item>In maintenance</item>
+        <item>Unavailable</item>
+        <item>Damaged</item>
+        <item>Need service and repair</item>
+        <item>Rented to customer</item>
+    </string-array>
+
+    <string name="photo_failed">Photo Capturing failed, try again</string>
+    <string name="gps_photo_failed">GPS &amp; Photo Capturing failed, try again</string>
+    <string name="saved">Data saved successfully</string>
+    <string name="deleted">Deleted Successfully</string>
+    <string name="no_available">Data Not Available</string>
+    <string name="wait_loading">Please Wait! Layout Loading...</string>
+
+    <string name="no_network">No network available please try again</string>
+    <string name="already_reg_">This Equipment is Already Booked by another User </string>
+    <string name="booking_failed">Booking Failed! Please Try Again...</string>
+    <string name="booking_success">Equipment Booking Success</string>
+    <string name="booking">Please Wait! Booking Equipment...</string>
+    <string name="find_equips">Please Wait! Server Hit For Equipments</string>
+    <string name="enter_username">Please enter user name</string>
+    <string name="enter_aadhaar">Please enter aadhaar id</string>
+    <string name="enter_valid_aadhaar">Please enter valid aadhaar id</string>
+    <string name="enter_address">Please enter address</string>
+    <string name="enter_phone">Please enter correct phone number</string>
+    <string name="enter_purpose">Please enter purpose</string>
+    <string name="enter_start_date">Please enter start date</string>
+    <string name="enter_end_date">Please enter end date</string>
+    <string name="cap_gps">Please capture Gps</string>
+    <string name="owner_details">Owner Details</string>
+    <string name="owner_name">Owner Name :</string>
+    <string name="equipment_name">Equipment Name :</string>
+    <string name="barcode">Barcode :</string>
+    <string name="equipment_rent">Rent :</string>
+    <string name="status">Status</string>
+    <string name="push_notification">Push notification</string>
+    <string name="title_booking">Booking</string>
+
+    <string name="key_missing">Key Missing...</string>
+    <string name="already_ordered">You Already Ordered this Equipment</string>
+    <string name="key_miss_onClickBookEquip">Key Missing in onClick_BookingEquipment_Book</string>
+    <string name="gps_captures_success">Gps captured Successfully</string>
+    <string name="str_name">Name : </string>
+    <string name="aadhaar_id">Aadhaar Id</string>
+    <string name="address">Address</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="purpose">Purpose</string>
+    <string name="end_date">End Date</string>
+    <string name="pls_cap_gps">Capture GPS</string>
+    <string name="book">Book</string>
+    <string name="remarks">Remarks</string>
+    <string name="equipments_availability">Corperative Equipments Availability</string>
+    <string name="chc_equipments_availability">CHC Equipments Availability</string>
+    <string name="gps_failed">GPS failed, try again</string>
+    <string name="distance">Distance : </string>
+    <string name="rent">Rent :</string>
+    <string name="equip_is">Already This Equipment is </string>
+    <string name="update">Updated!</string>
+    <string name="updat">Update</string>
+    <string name="gps">GPS</string>
+    <string name="name_of_equipment">Name of Equipment</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    <!--<string name=""></string>-->
+    <!--getResources().getString(R.string.)-->
+
+    <!-- Camera -->
+    <string name="phone_does_not_contains_camera">Sorry, your phone does not contains camera!</string>
+    <string name="failed_to_create_directory">Failed to create directory</string>
+    <string name="meters">Meters</string>
+    <string name="get_route">Getting Route</string>
+    <string name="driving">driving</string>
+
+
+    <string name="register">Register</string>
+    <string name="update_categories">Update Categories</string>
+    <string name="not_update_categories">Master not updated! Please try again... \n->Masters Update is available in SLIDE MENU (☰)</string>
+    <string name="search_equipment">Equipment Search</string>
+    <string name="cancel">CANCEL</string>
+    <string name="apply">APPLY</string>
+    <string name="details_book">Equipment Details</string>
+    <string name="for_book">For Booking</string>
+    <string name="s_no">Serial No :</string>
+    <string name="rent_book">Rent : ₹</string>
+    <string name="fetch_book">Fetching Address...</string>
+    <string name="no_net">No Internet! Please Check...</string>
+    <string name="eqp_name">Equipment Name</string>
+    <string name="eqp_details">Equipment Details</string>
+    <string name="process_to_book">Process To Booking</string>
+    <string name="fill_details_for_booking">Fill Details For Booking</string>
+    <string name="by_which_date">From Date:</string>
+    <string name="no_of_hours_need">No of Hours Need?</string>
+    <string name="which_date">Which Date You Need?</string>
+    <string name="eq_cat">Select Equipment Category</string>
+    <string name="eq_type">Select Equipment Type</string>
+    <string name="mandal">Mandal/Muncipality</string>
+    <string name="district">District</string>
+    <string name="gp">GP/Ward</string>
+    <string name="village">Village</string>
+
+    <!--Water-->
+
+    <!--Seed-->
+    <!--Fertilizer-->
+    <string name="fertilizers_name_av">Fertilizer Name :</string>
+    <string name="price_plant">Price(per plant)</string>
+    <string name="find_ferti">Please Wait! Server Hit For Fertilizers</string>
+    <string name="ferti_details">Fertilizer Details</string>
+    <string name="ferti_name">Fertilizer Name</string>
+    <string name="fertilize_name">Fertilizer Name :</string>
+
+
+    <!--Nursery-->
+    <string name="search_Nursery">Search Nursery</string>
+    <string name="find_Nursery">Please Wait! Server Hit For Nursery</string>
+    <string name="Nursery_details">Nursery Details</string>
+    <string name="Nursery_name">Nursery Name :</string>
+
+    <!--Seed-->
+    <string name="search_seed">Search Seed</string>
+    <string name="seed_cat">Select Seed Category</string>
+    <string name="seed_availability">Seed Availability</string>
+    <string name="title_activity_seed_booking_details">Seed Details</string>
+    <string name="seed_details">Seed Details</string>
+    <string name="seed_name">Seed Name</string>
+    <string name="seeds_name">Seed Name :</string>
+    <string name="plant_name">Plant Name :</string>
+
+    <!--Live Stock-->
+    <string name="price">Price (in kg)</string>
+    <string name="nursery_price">Price (Each Pot)</string>
+
+    <string name="district_">జిల్లా(District)</string>
+    <string name="mandal_">మండల(Mandal)/మున్సిపాలిటీ(Muncipality)</string>
+
+
+    <!--VIDEOS APP-->
+    <!--<string name="title_activity_main">Agriculture Videos</string>-->
+
+    <string name="btn_submit">Submit</string>
+    <!-- youtube -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--Fruits&Vegitables-->
+
+    <string-array name="Eng_Seed_Label">
+        <item>Shop Name</item>
+        <item>Licence Number</item>
+        <item>Mobile Number</item>
+        <item>Address</item>
+        <item>Select Category</item>
+        <item>Select Variety</item>
+        <item>Quantity</item>
+        <item>Price</item>
+        <item>Image</item>
+        <item>GPS</item>
+    </string-array>
+
+    <string-array name="Tel_Seed_Label">
+        <item>షాప్ పేరు</item>
+        <item>లైసెన్స్ సంఖ్య</item>
+        <item>మొబైల్ సంఖ్య</item>
+        <item>చిరునామా</item>
+        <item>వర్గం ఎంచుకోండి</item>
+        <item>వెరైటీ ఎంచుకోండి</item>
+        <item>క్వాంటిటీ</item>
+        <item>ధర</item>
+        <item>చిత్రం</item>
+        <item>జిపియస్</item>
+    </string-array>
+
+
+    <string name="seedRegistration">Seed Registration</string>
+    <string name="farmerName">Farmer Name</string>
+    <string name="selectSeed">Select Seeds Type</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_variety">Select Variety</string>
+    <string name="selectSeedtype">Select Sub Seed Type</string>
+    <string name="shopName">Shop Name</string>
+    <string name="panch">Panchayat/Ward</string>
+    <string name="quality">Quantity (in kg)</string>
+    <string name="number_of_pots">Quantity(No.of.pots)</string>
+    <string name="no_of_pots">no of pots</string>
+
+    <!--WEATHER-->
+
+    <string name="count">Count </string>
+
+
+    <!--Pests-->
+
+    <!--Fisheries-->
+
+    <string name="del_ques">Do you want to Delete?</string>
+
+    <string name="shop">Shop</string>
+    <string name="farmer">Farmer</string>
+
+    <string name="take_gps">Please Take GPS</string>
+    <string name="myloc">My Location</string>
+
+
+    <string name="please_wait_submitting">Please Wait! Submitting...</string>
+    <string name="submit_suceess">Submitted Successfully</string>
+    <string name="not_submit">Data not Submitted</string>
+    <string name="all_equpments">All Equipments</string>
+
+
+    <string name="date_weather">Date</string>
+    <string name="temperature">Temperature</string>
+    <string name="rain">Rain</string>
+    <string name="wind">Wind</string>
+
+    <string name="nodataavaialbepleasetryagain">No Data available \n Please try again</string>
+    <string name="weather_report">Weather Report</string>
+    <string name="menu_booking_tracker">Booking Tracker</string>
+    <string name="menu_capacity_building">Capacity Building</string>
+    <string name="menu_near_fertilizers">Nearby Fertilizers</string>
+    <string name="menu_near_seeds">Nearby Seeds</string>
+    <string name="menu_near_nurseries">Nearby Nurseries</string>
+    <string name="menu_near_cropinsurance">My Cluster Insurances</string>
+    <string name="dashboard_details">Dashboard Details</string>
+    <string name="my_cluster">My Cluster</string>
+    <string name="tot_cluster">Tot. Cluster</string>
+
+    <string-array name="gpNames">
+        <item>Total farmers</item>
+        <item>Crop info</item>
+        <item>Farmers registered equipments</item>
+        <item>Equipments in rent</item>
+        <item>Bulk booking equipments</item>
+        <item>Seeds dealers</item>
+        <item>Fertilizers dealers count</item>
+        <item>Nurseries dealers</item>
+        <item>Insurance</item>
+        <item>Loan</item>
+    </string-array>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_submit_schedule">Submit Schedule</string>
+    <string name="hint_serach_farmers">Search For Farmers (With Name or Mobile)</string>
+    <string name="select_gp">Please Select at least 1 village</string>
+    <string name="data_submited_success">Data Submitted Successfully</string>
+    <string name="schedule_meeting_all">Please Schedule meetings for all gps</string>
+    <string name="title_schedule_meetings">Schedule Meetings</string>
+    <string name="title_my_farmers">My Cluster Farmers</string>
+    <string name="title_seed_reg">Seed Registration</string>
+    <string name="sub_title_form">Form</string>
+    <string name="village_name">Village Name</string>
+    <string name="no_of_farmers">No. of Farmers</string>
+    <string name="farmer_name">Name</string>
+    <string name="farmer_aadhar">Aadhaar</string>
+    <string name="farmer_mobile">Mobile</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="select_fertilizer_type">Please Select Fertilizer Type</string>
+    <string name="farmer_communication">Farmer Communication</string>
+    <string name="mao_farmer_communication">MAO Farmer Communication</string>
+    <string name="nav_my_villages">My Villages</string>
+    <string name="nav_my_crops">My Crops</string>
+    <string name="select_village">Select Village</string>
+    <string name="select_district">Select District</string>
+    <string name="select_farmer">Select Farmer</string>
+    <string name="select_mandal">Select Mandal</string>
+    <string name="please_select_village">Please Select Village</string>
+    <string name="please_select_district">Please Select District</string>
+    <string name="please_select_farmer">Please Select Farmer</string>
+    <string name="please_select_mandal">Please Select Mandal</string>
+    <string name="menu_my_cluster">My Farmers</string>
+    <string name="menu_my_land">My Cluster Land</string>
+    <string name="menu_crop_sowing">My Cluster Crops</string>
+    <string name="menu_farmer_info">Uberization Info</string>
+    <string name="menu_bulk_booking">Bulk Booking</string>
+    <string name="menu_equip_booking_tracker">Equipment Booking Tracker</string>
+    <string name="menu_farmer_awareness">Farmer Awareness Camp</string>
+    <string name="menu_masterupdate">Master Update</string>
+    <string name="menu_near_equipments">Equipments</string>
+    <string name="internal_communication">Internal Communication</string>
+    <string name="officer_communication">Officer Communication</string>
+    <string name="please_select_seed_type">Please Select Seed type</string>
+    <string name="please_select_sub_seed_type">Please Select Sub Seed Type</string>
+    <string name="query_title">Title *</string>
+    <string name="query_description">Description *</string>
+    <string name="select_crop">Select Crop</string>
+    <string name="crop">Crop</string>
+    <string name="total_farmers">Total Farmers</string>
+    <string name="no_farmer_communication_data">No Farmer Communication Data</string>
+    <string name="meeting_details">Meeting Details</string>
+    <string name="my_villages">My Villages</string>
+    <string name="insertion_failed">Insertion Failed</string>
+    <string name="farmers_attended">Farmers Attended</string>
+    <string name="seperator">:</string>
+    <string name="no_seed_data">No Seed Data</string>
+    <string name="fertilizer_not_available">Fertilizer Data not available</string>
+    <string name="nursery_not_availabale">Nursery Data not available</string>
+    <string name="Total_Farmers">Farmers</string>
+    <string name="Total_Farmers_Installed">Farmers Installed</string>
+    <string name="Total_Equipments">Equipments</string>
+    <string name="equipment_menu">Equipment Menu</string>
+    <string name="no_equipments_data">No Equipments data !</string>
+    <string name="equipment_search">Equipment Search</string>
+    <string name="location_search">Location Search</string>
+    <string name="link_general">Link </string>
+    <string name="video_link">Video Link </string>
+    <string name="villages_in_my_cluster">Villages in my Cluster</string>
+    <string name="uberisation_info_of_my_cluster">Uberisation info of my Cluster</string>
+    <string name="mao_uberisation_info_of_my_cluster">Uberisation info of my Mandal Cluster</string>
+    <string name="no_uberisation_info">No Uberisation Info</string>
+    <string name="uberisation_info">Uberisation Info</string>
+    <string name="farmer_profile">Farmer Profile</string>
+    <string name="enter_valid_otp">Please enter correct OTP</string>
+    <string name="are_you_sure_want_to_exit">Are you sure you want to exit?</string>
+    <string name="please_select_crop">Please Select Crop</string>
+    <string name="title_seeds">Seeds</string>
+    <string name="new_seed_registration">New Seed Registration</string>
+    <string name="menu_agri_forum">Agri Forum</string>
+    <string name="Name">Name</string>
+    <string name="aadhar">Aadhaar Number</string>
+    <string name="i_m_farmer">I\'m(Farmer)</string>
+    <string name="write_post">Write Post</string>
+    <string name="question">Post</string>
+    <string name="phone">Phone : </string>
+    <string name="select_crop_type">Select Crop Type</string>
+    <string name="category">Select Category</string>
+    <string name="cultivated_type">Select Cultivated type</string>
+    <string name="type_here_to_share_massage">Question</string>
+    <string name="link_optional">Link(optional)</string>
+    <string name="link_type">Link type</string>
+    <string name="image_link">Image link</string>
+    <string name="link">Link</string>
+    <string name="Select_link_type">Select link type</string>
+    <string name="select">Please Select</string>
+    <string name="please">Please</string>
+    <string name="please_enter">Please enter</string>
+    <string name="crop_type_list">Crop Type</string>
+    <string name="take_photo">Take photo</string>
+    <string name="search_for_farmers">Search for Farmers</string>
+    <string name="search_by_farmer_name_aadhar_number_or_mobile_number">Search by farmer name or mobile number</string>
+    <string name="hello_officer_how_can_i_help_you">Hello Officer, How Can I Help You?</string>
+    <string name="my_cluster_post">My Cluster Post</string>
+    <string name="general_post">General Post</string>
+    <string name="upload_type">Upload Type</string>
+    <string name="pleae_select_upload_type">Please Select Upload Type</string>
+    <string name="please_capture_image">Please Capture Image</string>
+    <string name="please_take_image">Please Take Image</string>
+    <string name="please_enter_videolink">Please Enter Video Link</string>
+    <string name="select_commodity">Select Commodity</string>
+    <string name="hint_quantity">Quantity(in Kgs)</string>
+    <string name="btn_get_deals">Get Deals</string>
+    <string name="bulk_booking_request">Seed Bulk Booking Request</string>
+    <string name="fertilizer_bulk_booking_request">Fertilizer Bulk Booking Request</string>
+    <string name="nursery_bulk_booking_request">Nursery Bulk Booking Request</string>
+    <string name="discount">discount</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="mini_quantity">Mini Quantity (Kgs)</string>
+    <string name="mini_pots">Mini Quantity (No.of.pots)</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="bulk_booking_tracking">Bulk Booking Tracking</string>
+    <string name="equipment_booking_tracking">Equipment Booking Tracking</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="order_qty">Order qty</string>
+    <string name="item_price">Item price</string>
+    <string name="total">Total Amt</string>
+    <string name="order_details">Order Details</string>
+    <string name="track_report">Track Report</string>
+    <string name="shop_details">Shop Details</string>
+    <string name="bulk_booking_status">Bulk Booking Status</string>
+    <string name="equip_booking_status">Equipment Booking Status</string>
+    <string name="mini_quantity_ql_2">Mini Quantity (ql) : 2</string>
+    <string name="_0_discount">0 % discount</string>
+    <string name="commodity">Commodity</string>
+    <string name="category_name">Category Name</string>
+    <string name="bill_to_pay">Bill To Pay</string>
+
+    <string-array name="user_types">
+        <item>Farmer</item>
+        <item>Agri Student</item>
+        <item>Agriculture Officer</item>
+        <item>Agri Scientist</item>
+        <item>Agri Business</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="upload_type">
+        <item>--Select--</item>
+        <item>Image</item>
+        <item>Video Link</item>
+
+    </string-array>
+    <string name="variety">Variety</string>
+    <string name="quantity_in_quintal">Quantity in quintal</string>
+    <string name="pricing_details">Pricing Details</string>
+    <string name="req_quantity">Required Quantity</string>
+    <string name="price_dealer">Price</string>
+    <string name="payable_amnt">Total Amount Payable</string>
+    <string name="meeting_review">Meeting Review</string>
+    <string name="mao_meeting_review">MAO Meeting Review</string>
+    <string name="list">List</string>
+    <string name="no_notifications">NO NOTIFICATIONS!</string>
+
+    <string name="serial_no">Serial Number</string>
+    <string name="noteoccupancy">Note: Amount per Year</string>
+    <string name="yr_manufacturer">Year Of Manufacture(YYYY)</string>
+    <string name="note">Note: Amount per hour</string>
+    <string name="note_arc">Note: Amount per acre</string>
+    <string name="willing_to_rent">Willing To Rent?</string>
+    <string name="avaliable_date">Available Date</string>
+    <string name="equipment_category">Equipment Category</string>
+    <string name="category_type">Equipment Type</string>
+    <string name="owned_by">Owned By</string>
+    <string name="equipment_registration">Equipment Registration</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="channelName">channelName</string>
+    <string name="already_exist_adhar_number">Already This Mobile Number Is Registered For This Farmer</string>
+    <string name="please_select_category">Please Select Category</string>
+    <string name="please_select_category_type">Please Select Category Type</string>
+    <string name="please_select_owner_by">Please Select Owner By</string>
+    <string name="please_enter_serial_number">Please Enter Serial Number</string>
+    <string name="please_enter_model_name">Please Enter Model Name</string>
+    <string name="please_enter_manufacture">Please Enter Manufacture Name</string>
+    <string name="please_enter_year_of_manufacture">Please Enter Year of Manufacture</string>
+    <string name="please_enter_specifications">Please Enter Specifications</string>
+    <string name="please_rent_per_hour">Please Enter Rent Per Hour</string>
+    <string name="rent_per_hour">Rent Per Hour</string>
+    <string name="rent_per_acre">Rent Per Acre</string>
+    <string name="booking_id">B.Id : </string>
+
+    <string name="please_enter_rent_per_acre">Please Enter Rent Per Acre</string>
+    <string name="please_enter_owner_name">Please Enter Owner Name</string>
+    <string name="please_enter_adhar_number">Please Enter Aadhaar Number</string>
+    <string name="please_enter_valid_adhar_number">Please Enter Valid Aadhaar Number</string>
+    <string name="please_enter_address">Please Enter Address</string>
+    <string name="please_enter_mobile_number">Please Enter Mobile Number</string>
+    <string name="please_enter_valid_mobile_number">Please Enter Valid Mobile Number</string>
+    <string name="please_select_status">Please Select Status</string>
+    <string name="please_select_date">Please Select Date</string>
+    <string name="please_enter_valid_manufacturing_year">Please Enter Valid Manufacturing Year(1999-2019)</string>
+    <string name="invalid_link">Invalid Link</string>
+    <string name="take_image">Take Image</string>
+    <string name="model_name">Model Name</string>
+    <string name="manufacturer_name">Manufacturer Name</string>
+    <string name="specification">Specification</string>
+    <string name="apaims">APAIMS</string>
+    <string name="communication_SO_text">Communication</string>
+    <string name="uberization_info_SO_text">Uberization Info</string>
+    <string name="nearby_seeds_so_text">Nearby Seeds</string>
+    <string name="nearby_fertilizers_so_text">Nearby Fertilizers</string>
+    <string name="nearby_equipments_so_text">Nearby Equipments</string>
+    <string name="mandal_text">Mandal</string>
+    <string name="district_text">District</string>
+
+    <string name="mao_menu_my_cluster">My Mandal Farmers</string>
+    <string name="mao_menu_my_land">My Mandal Land</string>
+    <string name="mao_menu_crop_sowing">My Mandal Crops</string>
+    <string name="mao_menu_near_cropinsurance">My Mandal Insurances</string>
+
+    <string name="menu_comm_to_field_staff">Communication to Field Staff</string>
+    <string name="mandals_in_my_cluster">Villages in my Mandals Cluster</string>
+    <string name="bulk_booking_order">Bulk Booking Order</string>
+    <string name="nursery_bulk_booking_order">Nursery Bulk Booking Order</string>
+    <string name="fertilzers_name">Fertilizer Name:</string>
+    <string name="plants_name">Plant Name :</string>
+    <string name="selelct_commodity">Please Select Commodity</string>
+    <string name="select_category_type">Please Select category Type</string>
+    <string name="select_subcategory_type">Please Select Sub category Type</string>
+
+</resources>

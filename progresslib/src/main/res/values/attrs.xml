@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NKProgress">
+        <attr name="ProgressTitleAppearance" format="reference" />
+        <attr name="ProgressTitleText" format="reference|string" />
+        <attr name="ProgressDotColor" format="reference|color"/>
+        <attr name="ProgressDotCount" format="integer"/>
+    </declare-styleable>
+</resources>

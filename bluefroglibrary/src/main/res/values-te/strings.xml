@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BlueFrog Library</string>
+
+    <!-- Strings related to permission -->
+    <string name="camera_message_permission_rationale">కొనసాగించడానికి కెమెరా అనుమతి అవసరం</string>
+    <string name="phone_stage_message_permission_rationale" translatable="false">కొనసాగించడానికి ఫోన్ స్థితి అనుమతి అవసరం</string>
+    <string name="location_message_permission_rationale">కొనసాగించడానికి స్థాన అనుమతి అవసరం</string>
+    <string name="message_camera_permission_granted">కెమెరా అనుమతి మంజూరు చేయబడింది</string>
+    <string name="message_location_permission_granted">స్థాన అనుమతి మంజూరు చేయబడింది</string>
+    <string name="storage_permission_granted">నిల్వ అనుమతి మంజూరు చేయబడింది</string>
+
+    <string name="p_okay">Okay</string>
+    <string name="p_cancel">Cancel</string>
+    <string name="p_turn_on">తుర్న్ ఒన్</string>
+
+
+    <string name="alert_ok">OK</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="no_internet_available">"దయచేసి మీ ఇంటర్నెట్ కనెక్షన్ను తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి!"</string>
+
+    <!-- Camera -->
+    <string name="camera_failed_to_catpure">సంగ్రహించడంలో విఫలమైంది</string>
+    <string name="phone_does_not_contains_camera">క్షమించండి, మీ ఫోన్ కెమెరా కలిగి లేదు!</string>
+    <string name="failed_to_create_directory">డైరెక్టరీని సృష్టించడం విఫలమైంది</string>
+    <string name="zoom_not_available">జూమ్ అందుబాటులో లేదు</string>
+
+    <!-- GPS -->
+
+    <string name="gpshelper_searching_for_gps">Gps కోసం శోధిస్తోంది</string>
+    <string name="searching_for_gps">స్థానం కోసం శోధిస్తోంది</string>
+    <string name="zero_0">0</string>
+    <string name="toast_enable_gps">దయచేసి స్థానాన్ని ప్రారంభించి, వెనుకకు బటన్ క్లిక్ చేయండి</string>
+    <string name="unable_to_get_location">స్థానాన్ని పొందడం సాధ్యపడలేదు</string>
+
+
+    <!-- Call Api-->
+    <string name="default_message">దయచేసి వేచి ఉండండి ...</string>
+    <string name="attention">అటెన్షన్</string>
+    <string name="messageperm">ఈ చర్యకు మీరు అనుమతిని అమర్చడానికి మీ అనుమతి అవసరం?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept_cam_permissions">కెమెరా అనుమతులను ఆమోదించండి!</string>
+    <string name="enable_location">దయచేసి సనగర సేవలు ఎనేబుల్ చెయ్యండి</string>
+    <string name="enable">ఎనేబుల్</string>
+
+    <!--Force Update-->
+    <string name="youAreNotUpdatedTitle">అప్డేట్ అందుబాటులో ఉంది</string>
+    <string name="youAreNotUpdatedMessage">%1$s అనువర్తనం యొక్క క్రొత్త సంస్కరణ అందుబాటులో ఉంది. దయచేసి ఇప్పుడు వెర్షన్\s %2$s\s కి నవీకరించండి</string>
+    <string name="update">అప్డేట్</string>
+    <string name="version_update">అప్డేట్</string>
+    <string name="camera_is_not_ready">కెమెరా సిద్ధంగా లేదు</string>
+    <string name="please_wait">దయచేసి వేచి ఉండండి...</string>
+    <string name="sim_card_not_available">నెట్వర్క్ ప్రొవైడర్ను ఉపయోగించడానికి సిమ్ కార్డ్ అందుబాటులో లేదు</string>
+    <string name="please_wait_serverhit">దయచేసి వేచి ఉండండి, మీ అభ్యర్థన సేకరించ బడుతుంది</string>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">BlueFrog Library</string>
+
+    <!-- Strings related to permission -->
+    <string name="camera_message_permission_rationale">Camera permission is required for continuing</string>
+    <string name="phone_stage_message_permission_rationale" translatable="false">Read Phone stage permission is required for continuing</string>
+    <string name="location_message_permission_rationale">Location permission is required for continuing</string>
+    <string name="message_camera_permission_granted">Camera Permission granted</string>
+    <string name="message_location_permission_granted">Location permission granted</string>
+    <string name="storage_permission_granted">Storage Permission granted</string>
+    <string name="p_okay">Okay</string>
+    <string name="p_cancel">Cancel</string>
+    <string name="p_turn_on">Turn On</string>
+
+
+    <string name="alert_ok">OK</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="no_internet_available">"Please check your internet connection,
+ and try again!"</string>
+
+    <!-- Camera -->
+    <string name="camera_failed_to_catpure">Failed to capture</string>
+    <string name="phone_does_not_contains_camera">Sorry, your phone does not contains camera!</string>
+    <string name="failed_to_create_directory">Failed to create directory</string>
+    <string name="zoom_not_available">Zoom Not Available</string>
+
+    <!-- GPS -->
+    <string name="gpshelper_searching_for_gps">Searching for gps</string>
+    <string name="searching_for_gps">Searching for location</string>
+    <string name="zero_0">0</string>
+    <string name="toast_enable_gps">Please enable location and then click back button</string>
+    <string name="unable_to_get_location">Unable to get location</string>
+
+    <!-- Call Api-->
+    <string name="default_message">Please wait ...</string>
+
+    <string name="attention">Attention</string>
+    <string name="messageperm">Attention this action needs your permission to run you access the settings?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="accept_cam_permissions">Accept Camera Permissions!</string>
+    <string name="enable_location">Please enable location services</string>
+
+    <string name="enable">Enable</string>
+    <!--Force Update-->
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of %1$s App is available. Please update to version\ %2$s\ now</string>
+    <string name="update">Update</string>
+    <string name="version_update">Update</string>
+    <string name="camera_is_not_ready">Camera is not ready</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="sim_card_not_available">Sim card is not available to use network provider</string>
+    <string name="please_wait_serverhit"> Please wait,your request is being processed</string>
+
+</resources>

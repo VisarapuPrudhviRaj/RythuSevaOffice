@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="nk.bluefrog.rythusevaoffice">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Base.Green"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.home.MPEOHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.fertilizers.FertilizersAvaliabilityGridMapListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.fertilizers.FertilizeBookingDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.nursery.NurseryAvaliabilityGridMapListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.seeds.Seed_Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.seeds.SeedAvailableGridListMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.seeds.SeedsAvailablePlaceDetailsFromFarmer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.slidemenu.ScheduleMeetingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.slidemenu.ChangePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.slidemenu.MyGpsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.slidemenu.MyFarmersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ICM.ICMActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ICM.ICMDisplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ICM.ICMdisplayactivityNEW"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <receiver
+            android:name=".services.FirebaseDataReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+
+        <!-- [START fcm_default_icon] -->
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" /> <!-- [END fcm_default_icon] -->
+        <!-- [START fcm_default_channel] -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" /> <!-- [END fcm_default_channel] -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA-r6ALRQWcLEXCsw6VNgFOt_uddNhmsI0" />
+
+        <activity
+            android:name=".activities.dashboard.DashBoardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.farmercommunication.FarmerCommMobile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.farmercommunication.FarmerCommunicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.weather.WeatherReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.mycluster.MyCluster"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.mycluster.FarmersInAVillageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.slidemenu.ReviewMeeting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.farmerinfo.Farmer_info_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.equipments.EquipmentBookingDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.equipments.EquipAvaliabilityGridListMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.equipments.EquipmentMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.cropsowing.CropSowingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.land.LandActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.mycluster.FarmerProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.agriforum.ForumPostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.agriforum.ForumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+        <activity
+            android:name=".activities.bulkbooking.BulkBookingActivity"
+            android:parentActivityName=".activities.home.MPEOHomeActivity"
+            android:screenOrientation="portrait" /> <!--  -->
+        <activity
+            android:name=".activities.bulkbookingtracker.BulkBookingTrackerListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.bulkbookingtracker.BulkBookingStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.bulkbooking.SeedBulkBookingRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.equipments.EquipmentRegistrationActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".services.LocationMonitoringService" />
+
+        <activity
+            android:name=".activities.equipments.EquipmentListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.cropinsurance.CropInsuranceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.farmercommunication.JDFarmerCommunicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.mycluster.MAOMyCluster"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activities.home.StateOfficialsActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name=".activities.farmercommunication.FarmerCommunicationSOActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".activities.farmercommunication.MaoFarmerCommunicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.farmerinfo.MAOFarmer_info_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".schedulemeeting.MAOReviewMeeting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".schedulemeeting.MAOScheduleMeetingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.slidemenu.MAOMyMandalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.bulkbooking.NurseryrBulkBookingRequestActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.bulkbooking.FertlizerBulkBookingRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.masterdata.MasterDataActivity"
+
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/ProgressDialog" />
+        <activity
+            android:name=".activities.equipmentbookingtracker.EquipmentBookingStatusActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name=".activities.equipmentbookingtracker.EquipmentBookingTrackerListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activities.home.OfficersInfoActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

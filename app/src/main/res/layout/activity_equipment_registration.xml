@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+    <include
+        android:id="@+id/ll_heading"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bnr_8"
+        android:visibility="gone" />
+
+
+    <ScrollView
+        android:id="@+id/activity_equipment_registeration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_heading"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.9">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            card_view:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/tv_distsel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/district"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent" />
+
+                <nk.mobileapps.spinnerlib.SearchableSpinner
+                    android:id="@+id/spinnerdist"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_bg1"
+                    app:hintText="@string/district" />
+
+                <TextView
+                    android:id="@+id/tv_malsel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/mandal"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent" />
+
+                <nk.mobileapps.spinnerlib.SearchableSpinner
+                    android:id="@+id/spinnerMandal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_bg1"
+
+                    app:hintText="@string/mandal" />
+
+                <TextView
+                    android:id="@+id/villageselectiontype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/village"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+                <nk.mobileapps.spinnerlib.SearchableSpinner
+                    android:id="@+id/spinnervillage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_bg1"
+                    app:hintText="@string/village" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Is Existing Farmer ?"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+
+                <RadioGroup
+                    android:id="@+id/rdGroup_isfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <RadioButton
+                        android:id="@+id/rdbtnisfarmer_yes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/rdbtnisfaremer_no"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No" />
+                </RadioGroup>
+
+
+
+                <TextView
+                    android:id="@+id/gpselectiontype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/farmer"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+                <nk.mobileapps.spinnerlib.SearchableSpinner
+                    android:id="@+id/spinnerfarmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_bg1"
+                    app:hintText="@string/farmer" />
+
+                <TextView
+                    android:id="@+id/catselectiontype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/equipment_category"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+
+                <nk.mobileapps.spinnerlib.SearchableSpinner
+                    android:id="@+id/spinnerCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_bg1"
+                    app:hintText="@string/equipment_category" />
+
+                <TextView
+                    android:id="@+id/catselection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/category_type"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <nk.mobileapps.spinnerlib.SearchableSpinner
+                    android:id="@+id/spinnerCategoryType"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_bg1"
+                    app:hintText="@string/category_type" />
+
+                <TextView
+                    android:id="@+id/tv_Ownerbyselection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/owned_by"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinnerOwnerby"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_cmn_height"
+                    android:background="@drawable/spinner_bg1"
+                    android:entries="@array/type_"
+                    android:padding="10dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/serial"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:hint="@string/serial_no"
+                        android:inputType="number"
+                        android:maxLength="10" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/et_modelName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPKJHGFDSAZXCVBNM1234567890-"
+                        android:hint="@string/model_name"
+                        android:inputType="text" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/et_manufactureName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPKLJHGFDSAZXCVBNM1234567890-"
+                        android:hint="@string/manufacturer_name"
+                        android:inputType="text" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/et_yearmanufacture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:hint="@string/yr_manufacturer"
+                        android:inputType="numberSigned"
+                        android:maxLength="4" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/et_specification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPKLJHGFDSAZXCVBNM1234567890-"
+                        android:hint="@string/specification"
+                        android:inputType="text"
+                        android:maxLines="4" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/equip_rent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:hint="@string/equipment_rent"
+                        android:inputType="numberDecimal"
+                        android:maxLength="5" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/note"
+
+                    android:textSize="12sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/equip_rent_arc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:hint="@string/equipment_rent"
+                        android:inputType="numberDecimal"
+                        android:maxLength="5" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/note_arc"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_gravity="center"
+                        android:onClick="captureImage"
+                        android:scaleType="fitXY"
+                        android:src="@android:drawable/ic_menu_camera" />
+
+                    <TextView
+                        android:id="@+id/gps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/gps"
+
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/take_image" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/et_ownername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPLKLJHGFDSAZXCVBNM"
+                        android:hint="@string/owner_name"
+                        android:inputType="text" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/et_aadhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:enabled="true"
+                        android:hint="@string/aadhaar_id"
+                        android:inputType="number"
+                        android:maxLength="12" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789/-qwertyuiopasdfghjklzxcvbnm QWERTYUIOPLKJHGFDSAZXCVBNM"
+                        android:hint="@string/address"
+                        android:inputType="text" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:hint="@string/phone"
+                        android:inputType="phone"
+                        android:maxLength="10" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/willing_to_rent" />
+
+                    <RadioGroup
+                        android:id="@+id/rdGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rdbtn_yes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/rdbtn_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_statusL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/status"
+                        android:textColor="@color/black" />
+
+                    <Spinner
+                        android:id="@+id/spinnerStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spinner_bg"
+                        android:entries="@array/statusdetails"
+                        android:padding="10dp" />
+
+
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_Start_Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/et_Available_Date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_date"
+                        android:drawableTint="@color/accent_green"
+                        android:focusable="false"
+                        android:hint="@string/avaliable_date" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/barcode"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:id="@+id/bt_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="onclick_submit"
+                    android:text="@string/submit"
+                    android:textColor="#fff" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+
+</RelativeLayout>

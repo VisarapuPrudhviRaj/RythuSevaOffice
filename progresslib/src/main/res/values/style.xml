@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DottedProgressDefault" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="ProgressTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="ProgressTitleText">Loading…</item>
+        <item name="ProgressDotCount">5</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/ic_listitem"
+            android:title="@string/mao_menu_my_cluster" />
+        <!--<item
+            android:id="@+id/nav_farmers"
+            android:icon="@drawable/ic_listitem"
+            android:title="@string/nav_my_farmers" />-->
+       <!-- <item
+            android:id="@+id/nav_crops"
+            android:icon="@drawable/ic_listitem"
+            android:title="@string/nav_my_crops" />-->
+        <!--<item
+            android:id="@+id/nav_pin"
+            android:icon="@drawable/ic_listitem"
+            android:title="@string/nav_change_pin" />-->
+        <item
+            android:id="@+id/nav_schedule_meetings"
+            android:icon="@drawable/ic_listitem"
+            android:title="@string/menu_farmer_awareness" />
+    </group>
+
+</menu>

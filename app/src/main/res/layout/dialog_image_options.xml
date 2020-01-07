@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Select"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/rgLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/title">
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp"
+            android:textSize="16sp"
+            android:text="Gallery"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:textSize="16sp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="Camera"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

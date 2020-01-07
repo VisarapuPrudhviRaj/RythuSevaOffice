@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_padding_5">5dp</dimen>
+    <dimen name="common_padding_10">10dp</dimen>
+    <dimen name="common_padding_30">30dp</dimen>
+    <dimen name="common_padding_20">20dp</dimen>
+    <dimen name="common_font_normal">16sp</dimen>
+    <dimen name="common_padding_16">16dp</dimen>
+    <dimen name="gps_dialog_padding">12dp</dimen>
+    <dimen name="large_padding_200">200dp</dimen>
+</resources>

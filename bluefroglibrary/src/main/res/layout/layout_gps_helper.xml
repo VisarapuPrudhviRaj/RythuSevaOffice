@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_searching_gps"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/gps_dialog_padding">
+
+
+
+    <ProgressBar
+        android:id="@+id/pbIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:minHeight="76dp"
+        android:minWidth="76dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/common_padding_5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_5"
+            android:text="@string/searching_for_gps"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvCountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_5"
+            android:text="Countdown : 0"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>

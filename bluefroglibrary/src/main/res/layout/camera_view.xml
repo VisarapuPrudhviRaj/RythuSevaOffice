@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <RelativeLayout
+        android:id="@+id/llCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <nk.bluefrog.library.camera.CameraView
+            android:id="@+id/cameraPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/llZoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/common_padding_16"
+            android:layout_marginRight="@dimen/common_padding_16"
+            android:layout_marginTop="@dimen/common_padding_16"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/bvPluse"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:paddingBottom="@dimen/common_padding_10"
+                android:paddingTop="@dimen/common_padding_10"
+                android:text="+"
+                android:textColor="@color/common_white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bvMinus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:paddingBottom="@dimen/common_padding_10"
+                android:paddingTop="@dimen/common_padding_10"
+                android:text="-"
+                android:textColor="@color/common_white"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/flSaveButtons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:visibility="gone">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ivCapturedImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true" />
+
+            <LinearLayout
+                android:id="@+id/llButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="@dimen/common_padding_20"
+                android:background="@drawable/bg_ok_or_cancel"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="@dimen/common_padding_16"
+                    android:src="@drawable/cam_cancel" />
+
+                <ImageButton
+                    android:id="@+id/ibSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding_20"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="@dimen/common_padding_16"
+                    android:src="@drawable/cam_save" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCaptureLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent">
+
+            <ImageButton
+                android:id="@+id/buttonCapture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/selector_round_btn"
+                android:clickable="true"
+                android:padding="@dimen/common_padding_20"
+                android:src="@drawable/selector_button_capture" />
+
+            <ImageButton
+                android:id="@+id/buttonRotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/common_padding_16"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:padding="@dimen/common_padding_5"
+                android:src="@drawable/cam_rotate" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/flIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/img_placeholder"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/large_padding_200"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="@dimen/common_padding_30"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlRotateCam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:padding="@dimen/common_padding_30"
+        android:visibility="gone">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivRoatateCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/common_padding_30"
+            app:srcCompat="@drawable/rotate_device_to_landscape" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

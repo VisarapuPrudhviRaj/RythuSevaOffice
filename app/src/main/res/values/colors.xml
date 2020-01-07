@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#66cc66</color>
+     <color name="colorPrimaryDark">#339900</color>
+     <color name="colorAccent">#993333</color>-->
+
+    <color name="colorPrimary">#A95809</color>
+    <color name="colorPrimaryDark">#A95809</color>
+    <color name="colorAccent">#DA9A30</color>
+
+    <color name="greenA700">#00C853</color>
+
+    <!--339900 52bf90-->
+    <color name="primary_green">#A95809</color>
+    <color name="primary_dark_green">#A95809</color>
+    <color name="accent_green">#DA9A30</color>
+
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="activity_bg">#F0F0F0</color>
+    <color name="dark_blue_color">#ff1a9ab6</color>
+    <color name="red">#f00</color>
+
+    <!--VIDEOS APP-->
+
+    <color name="colorTextPrimary">#212121</color>
+
+    <color name="heading_bg">#272727</color>
+
+    <color name="movieListTextColor">#ff646769</color>
+    <color name="white">@android:color/white</color>
+
+
+    <!--read-->
+
+    <color name="notification_card_background_unread">#c8edc0</color>
+    <color name="notification_card_background_read">#FFFFFF</color>
+
+
+    <color name="colorWhite">#fff</color>
+
+    <color name="winter">#44a1c1da</color>
+
+    <color name="today">#f6ae49</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".activities.login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver:"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:theme="@style/MyAppearance">
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="12"
+                android:hint="మొబైల్ నంబర్(Mobile Number)"
+                android:inputType="number"
+                android:maxLength="10" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:theme="@style/MyAppearance"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="ఓ టి పి(OTP)"
+                android:inputType="numberPassword"
+                android:maxLength="5" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/input_layout_otp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="7dp"
+             android:theme="@style/MyAppearance"
+             app:passwordToggleEnabled="true"
+             app:passwordToggleTint="@color/white">
+
+             <EditText
+                 android:id="@+id/et_otp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:hint="ఓ టి పి(OTP)"
+                 android:inputType="numberPassword"
+                 android:maxLength="5"
+                 android:text="" />
+
+         </android.support.design.widget.TextInputLayout>-->
+
+        <!-- <TextView
+             android:id="@+id/tv_resendOTP"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right"
+             android:layout_marginTop="2dp"
+             android:clickable="true"
+             android:text="OTP ను మళ్ళీ పంపు(Resend OTP)?"
+             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+             android:textColor="#fff"
+             android:textStyle="bold"
+             android:visibility="gone" />-->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="login"
+            android:text=" లాగిన్(Login) "
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <!-- <Button
+             android:id="@+id/bt_verifyotp"
+             android:layout_width="wrap_content"
+             android:layout_height="48dp"
+             android:layout_gravity="center"
+             android:layout_marginTop="20dp"
+             android:clickable="true"
+             android:text=" OTP ను ధృవీకరించండి(Verify OTP) "
+             android:textAppearance="@style/TextAppearance.AppCompat.Title"
+             android:textColor="#fff"
+             android:textStyle="bold"
+             android:visibility="gone" />-->
+
+
+    </LinearLayout>
+
+    <!--<Button
+
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/registernewaccount"
+        android:clickable="true"
+        android:onClick="onClick_Register"
+        android:text="New to రైతు సేవ ? Register Here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#000"
+        android:visibility="visible" />-->
+
+
+</RelativeLayout>

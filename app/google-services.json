@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "1034269238861",
+    "firebase_url": "https://rytu-seva-mpo.firebaseio.com",
+    "project_id": "rytu-seva-mpo",
+    "storage_bucket": "rytu-seva-mpo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034269238861:android:9d1ca7221083883f",
+        "android_client_info": {
+          "package_name": "nk.bluefrog.rythusevaoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034269238861-6pg29299avju4cke9cmtsfe7ori0o20d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nk.bluefrog.rythusevaoffice",
+            "certificate_hash": "2a45881cb22c58a315d3b72b80724fcb801bfa7c"
+          }
+        },
+        {
+          "client_id": "1034269238861-36mlr3itrnu40cgc8klp11sj1f7ekt7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nk.bluefrog.rythusevaoffice",
+            "certificate_hash": "5e71f256da1b52ade08da51483e0511932797037"
+          }
+        },
+        {
+          "client_id": "1034269238861-9rfsbbvhn6vdbcmhhheicjmbm0pq1ane.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nk.bluefrog.rythusevaoffice",
+            "certificate_hash": "9c3622a9714c8546cbfdfd6d7f7d179c39cd342e"
+          }
+        },
+        {
+          "client_id": "1034269238861-nslbjgu6mjgdif51huslbb3u23sr3i90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nk.bluefrog.rythusevaoffice",
+            "certificate_hash": "abf4898bb4f1968d15ea967f7dc0c4e1a485ac0b"
+          }
+        },
+        {
+          "client_id": "1034269238861-caeff3m8oompp8l6uo7g5d6mv8teh50e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUzj3iKEbonDJks231zQk2h7tzz-QIGIg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034269238861-caeff3m8oompp8l6uo7g5d6mv8teh50e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
